@@ -10,7 +10,8 @@
 #### 1、零基础学院
 
 1. [Day 1](https://github.com/plantree/IFE/blob/master/%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%AD%A6%E9%99%A2/day1.md)
-2. ​
+2. [Day 2](https://github.com/plantree/IFE/blob/master/%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%AD%A6%E9%99%A2/day2.md)
+3. ​
 
 #### 2、MVVM学院
 
