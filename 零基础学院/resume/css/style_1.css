@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.basic li,
+.contact li {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+li {
+    font-weight: 700;
+}
+
+span {
+    font-weight: 400;
+}
+
+.ability span,
+.education span,
+.project span {
+    display: block;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,41 @@
+/*------ style 1 ----------*/
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.basic li,
+.contact li {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+li {
+    font-weight: 700;
+}
+
+span {
+    font-weight: 400;
+}
+
+.ability span,
+.education span,
+.project span {
+    display: block;
+    margin-bottom: 1em;
+}
+
+/*---------- style 2 -----------*/
+div.header {
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: white;
+    background-color: #65A4FA;
+    height: 45em;
+}
+
+div.main {
+    float: right;
+    width: 75%;
+}
