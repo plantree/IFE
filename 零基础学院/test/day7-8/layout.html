@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        section {
+            height: 100px;
+            background-color: purple;
+            border: 2px solid white;
+        }
+
+        /*-- 两栏布局，左30%， 右70%--*/
+        /*float*/
+
+        /*
+        section.first {
+            width: 30%;
+            float: left;
+        }
+        
+        section.second {
+            width: 70%;
+            float: left;
+        }*/
+
+        /*position*/
+
+        /*
+        body {
+            position: relative;
+        }
+        section:nth-of-type(1) {
+            position: absolute;
+            left: 0;
+            width: 30%;
+        }
+        
+        section:nth-of-type(2) {
+            position: absolute;
+            right: 0;
+            width: 70%;
+        }*/
+
+        /*flex*/
+        /*
+        main {
+            display: flex;
+        }
+        section.first {
+            flex: 3;
+        }
+        section.second {
+            flex: 7;
+        }*/
+        
+        /*-- 两栏布局，左固定， 右自适应--*/
+        /*float*/
+        /*
+        section.first {
+            width: 10em;
+            float: left;
+        }*/
+        
+        /*position*/
+        /*
+        main {
+            position: relative;
+        }
+        section.first {
+            width: 10em;
+            position: absolute;
+            left: 0;
+        }
+        section.second {
+            margin-left: 10em;
+        }*/
+        
+        /*flex*/
+        /*
+        main {
+            display: flex;
+        }
+        section.first {
+            width: 10em;
+        }
+        section.second {
+            flex: 1;
+        }*/
+        
+        /*-- 两栏布局，右固定， 左自适应--*/
+        /*float*/
+        /*
+        section.first {
+            width: 10em;
+            float: right;
+        }*/
+        
+        /*position*/
+        /*
+        main {
+            position: relative;
+        }
+        section.first {
+            width: 10em;
+            position: absolute;
+            right: 0;
+        }
+        section.second {
+            margin-right: 10em;
+        }
+        */
+        
+        /*flex*/
+        /*
+        main {
+            display: flex;
+        }
+        section.first {
+            flex: 1;
+        }
+        section.second {
+            width: 10em;
+        }*/
+        
+        /*-- 三栏布局，左右固定， 中间自适应--*/
+        /*float*/
+        /*
+        section.first {
+            width: 10em;
+            float: left;
+        }
+        section.second {
+            width: 10em;
+            float: right;
+        }*/
+        
+        /*position*/
+        /*
+        main {
+            position: relative;
+        }
+        section.first {
+            width: 10em;
+            position: absolute;
+            left: 0;
+        }
+        section.second {
+            width: 10em;
+            position: absolute;
+            right: 0;
+        }*/
+        
+        
+        /*flex*/
+        /*
+        main {
+            display: flex;
+        }
+        section.first {
+            width: 10em;
+        }
+        section.second {
+            flex: 1;
+        }
+        section.third {
+            width: 10em;
+        }*/
+        
+        /*-- 三栏布局，左中固定， 右自适应--*/
+        /*float*/
+        /*
+        section.first {
+            width: 10em;
+            float: left;
+        }
+        section.second {
+            width: 10em;
+            float: left;
+        }*/
+        
+        /*position*/
+        /*
+        main {
+            position: relative;
+        }
+        section.first {
+            width: 10em;
+            position: absolute;
+            left: 0;
+        }
+        section.second {
+            width: 10em;
+            position: absolute;
+            left: 10em;
+        }
+        section.third {
+            margin-left: 20em;
+        }*/
+        
+        
+        /*flex*/
+        main {
+            display: flex;
+        }
+        section.first {
+            width: 10em;
+        }
+        section.second {
+            width: 10em;
+        }
+        section.third {
+            flex: 1;
+        }
+        
+        
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- 两栏布局 -->
+        <!--
+        <section class="first">
+        </section>
+        <section class="second">
+        </section>
+        -->
+        
+        <!-- 三栏布局 -->
+        <section class="first">
+        </section>
+        <section class="second">
+        </section>
+        <section class="third">
+        </section>
+        
+        
+    </main>
+</body>
+
+</html>

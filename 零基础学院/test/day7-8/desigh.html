@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <style>
+        body {
+            width: 100%;
+            margin: auto 0;
+        }
+        
+        div.main {
+            width: 960px;
+            margin: 0 auto;
+        }
+        
+        a {
+            font-size: 0.8em;
+        }
+        section {
+            margin: 0;
+        }
+
+        section.header {
+            position: relative;
+            height: 5em;
+            background-color: #333333;
+            color: white;
+        }
+
+        section.header p {
+            font-size: 1.5em;
+            display: inline-block;
+            margin-left: 5em;
+        }
+
+        header ul {
+            list-style-type: none;
+            list-style-position: inside;
+        }
+
+        header ul li {
+            display: inline-block;
+        }
+
+        section.header ul {
+            position: absolute;
+            right: 5em;
+            top: 0;
+        }
+
+        section.header ul li {
+            margin-left: 0.5em;
+        }
+
+        section.header ul a {
+            color: white;
+        }
+
+        section.banner {
+            height: 15em;
+            background-color: #65BB33;
+            position: relative;
+        }
+
+        section.banner ul {
+            margin: 0;
+            position: absolute;
+            bottom: 1em;
+            right: 5em;
+        }
+
+        section.banner ul li {
+            display: inline-block;
+            background-color: #ABD692;
+            padding: 0.5em;
+        }
+
+        section.banner ul li.page-active {
+            padding-top: 1em;
+            background-color: #E0F1D6;
+        }
+
+        section.banner ul a {
+            color: grey;
+            text-decoration: none;
+        }
+        
+        nav {
+            border-bottom: 1px solid #DADADA;
+        }
+        nav ul {
+            margin-left: 5em;
+            margin-bottom: -1px;
+        }
+        
+        nav ul a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            box-sizing: border-box;
+            background-color: #EEEEEE; 
+            padding: 0.5em 1em;
+            margin-left: -0.3em;
+            border: 1px solid #DADADA;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        nav ul li.nav-active {
+            background-color: white;
+            border-bottom: 1px solid white;
+        }
+        
+        main {
+            margin: 0 4em 0 7em;
+        }
+        
+        main section {
+            margin-top: 2em;
+        }
+        
+        main div {
+            height: 10em;
+            border: 1px solid #DADADA;
+            margin-right: 1em;
+        }
+        
+        main section {
+            display: flex;
+        }
+        
+        main section div {
+            flex: 1;
+        }
+        
+        footer {
+            height: 5em;
+            background-color: #666666;
+            color: white;
+            text-align: center;
+            padding-top: 1em;
+        }
+        
+        
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <header role="banner">
+            <section class="header">
+
+                <ul>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+                <p>Logo</p>
+            </section>
+
+            <section class="banner">
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li class="page-active"><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ul>
+            </section>
+
+            <nav role="navigation">
+                <ul>
+                    <li class="nav-active"><a href="#">HOME</a></li>
+                    <li><a href="#">PROFILE</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main role="main">
+            <section class="col1">
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+            <section class="col2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+            <section class="col3">
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+        </main>
+
+        <footer role="contentinfo">
+            <p><small>&copy;2018 ife.baidu.com</small></p>
+        </footer>
+    </div>
+</body>
+</html>
